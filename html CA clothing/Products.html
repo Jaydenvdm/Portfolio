@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <mate name="viewport" content="width-device-width, initial-scale=1.0">
+		<title>CA Products</title>
+        <link rel="stylesheet" href="ProdCSS.css">
+    </head>	
+        
+	<body>
+	
+        <div class="container">
+            <div class="navbar">
+                <img src="Images/CA(Logo).png" class="logo">
+                <img src="Images/menu.png" class="menu-icon">
+                
+                <ul><button type="button"><a href="CA%20Home.html">Home Page</a></button></ul>
+                <ul><button type="button"><a href="Contact.html">Contact</a></button></ul>
+            </div> 
+            <div class="row">
+                <div class="left-col">
+                    <div class="content">
+                        <h1><span>Quality</span> and Creativity</h1>
+                        <p>We offer different type of products
+                        <br>that meet our customers needs and quality expectations.</p>
+                        <div class="info">
+                            <img src="Images/info.png">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="right-col">
+                    <img src="Images/CA(Top).jpg" id="picture">
+                </div>
+            </div>
+            
+            <div class="controller">
+                <ul>
+                    <li class="active btn">01</li>
+                    <li class="btn">02</li>
+                    <li class="btn">03</li>
+                    <li class="btn">04</li>
+                    <li class="btn">05</li>
+                    <li class="btn">06</li>
+                    <li class="btn">07</li>
+                </ul>
+            </div>
+        </div>
+<script>
+  var btn = document.getElementsByClassName("btn");
+    
+    var picture = document.getElementById("picture");
+    
+    for(let i=0; i<btn.length; i++){
+        btn[i].addEventListener('click', function(){
+            let current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace("active","");
+            this.className += " active";
+        });
+    }
+    
+    btn[0].onclick = function(){
+        picture.src = "Images/CA(Top).jpg";
+    }
+    btn[1].onclick = function(){
+        picture.src = "Images/CA(Sleeveless).jpg";
+    }
+    btn[2].onclick = function(){
+        picture.src = "Images/CA(Hoddie).jpg";
+    }
+    btn[3].onclick = function(){
+        picture.src = "Images/CA(Bomber).jpg";
+    }
+    btn[4].onclick = function(){
+        picture.src = "Images/CA(Pants).jpg";
+    }
+    btn[5].onclick = function(){
+        picture.src = "Images/Mask.jpeg";
+    }
+    btn[6].onclick = function(){
+        picture.src = "Images/Bag.jpeg";
+    }
+</script>
+	
+	</body>
+	
+</html>
