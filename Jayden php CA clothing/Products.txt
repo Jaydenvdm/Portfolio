@@ -1,0 +1,15 @@
+One size fits all Face Mask,10.00,Images\\CA Face Mask.jpg,20
+CA Custom Bomber Jacket,600.00,Images\\Bomber Jacket.jpg,6
+CA Blacked Out Coat,1200.00,Images\\CA Coat.jpg,8
+Limited edition Jelly Bean Jacket,1800.00,Images\\Bean Jacket.jpg,5
+Gold & Black CA Hoodie,400.00,Images\\Hoodie.jpg,7
+Long sleeve + moon bag combo,250.00,Images\\Long sleeve.jpg,9
+Arabian style Jersey,300.00,Images\\Jersey.jpg,6
+Custom CA Jean,350.00,Images\\CA Jean.jpg,8
+First ever CA T-shirt,100.00,Images\\T-Shirt.jpg,12
+Sleeveless T-shirt,80.00,Images\\Sleeveless Top.jpg,6
+Blacked out Semi-formal shirt,180.00,Images\\Shirt.jpg,7
+Comfortable stylish shorts,80.00,Images\\Shorts.jpg,10
+Sweat proof CA Sweat Pants,170.00,Images\\Sweat Pants.jpg,8
+Comfortable Tracksuit Pants,150.00,Images\\Track Pants.jpg,9
+Limited edition Rose Formal Jacket,600.00,Images\\Rose Formal Jacket.jpg,5
