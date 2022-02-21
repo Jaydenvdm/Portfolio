@@ -1,0 +1,10 @@
+Nike Uptempo,1800.00,image\\pic1.jpg,2
+Reebok Kilamikazee,1600.00,image\\pic2.jpg,4
+Air Jordan 6,2400.00,image\\pic3.jpg,6
+Air Jordan 23,2799.99,image\\pic4.jpg,8
+Nike The Glove,1999.99,image\\pic5.jpg,9
+Timberland,1400.00,image\\pic6.jpg,8
+Carvela,799.99,image\\pic7.jpg,7
+Nike Foamposite 3,2600.00,image\\pic8.jpg,6
+Nike Uptempo Retro,1999.99,image\\pic9.jpg,5
+Catepillar,2000.00,image\\pic10.jpg,4
