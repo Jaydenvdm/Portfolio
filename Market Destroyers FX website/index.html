@@ -1,0 +1,67 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Market Destroyers FX</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="x-icon" href="Images/icon.png">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html"><img src="Images/Market%20Destroyers%20FX%20logo.png" class="logo"></a>
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="Images/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+        
+                <div class="row">
+                    <div class="col-1">
+                        <h3>Are you <br> struggling to be a</h3>
+                        <h2>profitable trader?</h2>
+                        <br>
+                        <a href="packages.html"><button type="button">Buy Now<img src="Images/arrow.png"></button></a>
+                    </div>
+                    
+                    <div class="col-2">
+                        <img src="Images/MT4.png" class="phone">
+                        <div class="color-box"></div>
+                    </div>
+                </div> 
+        </div>
+        
+        <div class="side-bar">
+                
+                <div class="social-links">
+                    <a href="https://www.facebook.com/sakhekilesailor.luphuwana"><img src="Images/facebook.png"></a>
+                    <a href="https://www.instagram.com/dr.sailor_/"><img src="Images/instagram.png"></a>
+                    <a href="https://api.whatsapp.com/send?phone=+27849216147"><img src="Images/whatsapp.png"></a>
+                </div>
+            </div>
+        
+        
+            <script>
+                var menuList = document.getElementById("menuList");
+                
+                menuList.style.maxHeight = "0px";
+                
+                function togglemenu(){
+                    
+                    if(menuList.style.maxHeight == "0px")
+                        {
+                            menuList.style.maxHeight = "130px"
+                        }
+                    else
+                        {
+                            menuList.style.maxHeight = "0px";
+                        }
+                }
+            </script>
+        
+    </body>
+    
+</html>

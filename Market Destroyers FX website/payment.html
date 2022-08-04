@@ -1,0 +1,65 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Market Destroyers FX</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="x-icon" href="Images/icon.png">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html"><img src="Images/Market%20Destroyers%20FX%20logo.png" class="logo"></a>
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="Images/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+            
+            <div class="head">
+                <h3>Complete your payment here:</h3>
+            </div>
+                    
+                <div class="row">
+                    <div class="col-1">
+                        <h2>FNB</h2>
+                        <h4>Account Number: 62907542535 <br>
+                        Account Holder: MR S Luphuwana <br>
+                        Cellphone Number: (078) 765 3056</h4>
+                        <br>
+                        <a href="packages.html"><button type="button">Continue shopping<img src="Images/arrow.png"></button></a>
+                    </div>
+                    
+                    <div class="col-2">
+                        
+                        <div class="color-box"></div>
+                    </div>
+                </div>
+            
+        </div>
+        
+            <script>
+                var menuList = document.getElementById("menuList");
+                
+                menuList.style.maxHeight = "0px";
+                
+                function togglemenu(){
+                    
+                    if(menuList.style.maxHeight == "0px")
+                        {
+                            menuList.style.maxHeight = "130px"
+                        }
+                    else
+                        {
+                            menuList.style.maxHeight = "0px";
+                        }
+                }
+            </script>
+        
+    </body>
+    
+</html>
