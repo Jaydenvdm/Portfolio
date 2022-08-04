@@ -1,0 +1,57 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Samurai</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="x-icon" href="Images/icon.png">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <nav>
+                    <ul id="menuList">
+                        <li><button type="button"><a href="">About Us</a></button></li>
+                        <li><button type="button"><a href="">History</a></button></li>
+                    </ul>
+                </nav>
+                <img src="Images/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+        
+                <div class="row">
+                    <div class="col-1">
+                        <h2>Our History</h2>
+                        <h3>Lost but never Forgotten</h3>
+                        <br>
+                        <a href=""><button type="button">See More<img src="Images/arrow.png"></button></a>
+                    </div>
+                    
+                    <div class="col-2">
+                        <img src="Images/Samurai%20img.png" class="sam">
+                        <div class="color-box"></div>
+                    </div>
+                </div> 
+        </div>
+        
+        
+            <script>
+                var menuList = document.getElementById("menuList");
+                
+                menuList.style.maxHeight = "0px";
+                
+                function togglemenu(){
+                    
+                    if(menuList.style.maxHeight == "0px")
+                        {
+                            menuList.style.maxHeight = "130px"
+                        }
+                    else
+                        {
+                            menuList.style.maxHeight = "0px";
+                        }
+                }
+            </script>
+
+           
+    </body>
+    
+</html>
